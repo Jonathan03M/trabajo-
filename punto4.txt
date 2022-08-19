@@ -1,0 +1,15 @@
+/* 4)---------
+IMPLEMENTAR UNA FUNCIÓN QUE TOME UN ARRAY COMO ARGUMENTO Y SE EXTRAIGA LOS
+ULTIMOS 3 ELEMENTOS. RETORNAR EL RESULTADO COMO UN NUEVO ARRAY. */
+
+
+
+
+function myArray([]){
+       
+    myArray = ["Pablo","Luis","Jorge","Lucia","Rolon"]
+    
+	return nuevoArray = myArray.slice(-3)
+}
+
+console.log(myArray([]))

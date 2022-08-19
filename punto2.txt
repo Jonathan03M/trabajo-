@@ -1,0 +1,11 @@
+// 2)---------
+// IMPLEMENTAR UNA FUNCIÓN QUE TOME UN VALOR COMO ARGUMENTO Y RETORNE DE QUE TIPO
+// ES (SI ES STRING, NUMBER, BOOLEAN, ETC)
+
+function Consigna(a){
+    a = 1455
+	return typeof (a)
+    
+}
+
+console.log(Consigna())

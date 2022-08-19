@@ -1,0 +1,22 @@
+/* 7)---------
+IMPLEMENTAR UNA FUNCIÓN QUE RECIBA UN ARRAY DE NUMEROS COMO ARGUMENTO Y QUE
+RETORNE LA SUMA DE LOS ELEMENTOS DEL ARRAY. IDEM A ESTE APARTADO CREAR OTRA
+FUNCIÓN QUE RETORNE EL PROMEDIO DE LOS ELEMENTOS DEL ARRAY. */
+
+
+
+myArray = [1,2,3,4,5]
+
+function SumarArreglo([]) {
+
+	let suma = 0
+
+	for (i = 0; i < myArray.length; i++) {
+        suma += myArray[i]
+    } 
+    return promedio = suma/myArray.length
+	}
+
+
+console.log(SumarArreglo(myArray))
+	

@@ -1,0 +1,17 @@
+// /* 6)---------
+// IMPLEMENTAR UNA FUNCIÓN QUE RECIBA COMO ARGUMENTO UN ARRAY (a) Y UN VALOR(b).
+// LA FUNCION DEBE REMOVER TODOS LOS ELEMENTOS DEL ARRAY IGUALES AL VALOR(b).
+// RETORNAR EL ARRAY FILTRADO      
+
+arr = ["Blanco", "Negro", "Blanco", "Negro", "Negro"] 
+b= "Blanco" 
+ function eliminar (arr,b){   
+      for (i=0;i < arr.length;i++) {    
+        if (arr[i] === b){         
+                arr.splice(i,1)  
+}} return arr 
+
+        }
+
+  console.log(eliminar(arr,b))
+

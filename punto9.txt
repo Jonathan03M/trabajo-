@@ -1,0 +1,14 @@
+
+/* 9)---------
+IMPLEMENTAR UNA FUNCIÓN QUE RECIBA UN OBJETO COMO ARGUMENTO Y RETORNAR
+LA SUMA DE TODOS SUS VALORES. */
+
+
+
+
+objetos = [
+    {  descripcion: 'mesas', cantidad: 20},
+    {  descripcion: 'sillas', cantidad: 20},
+    {  descripcion: 'computadoras', cantidad: 40},];
+    let reduce = objetos.reduce((acumulador, actual) => acumulador + actual.cantidad, 0);
+    console.log(reduce)

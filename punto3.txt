@@ -1,0 +1,32 @@
+/* 3)---------
+IMPLEMENTAR UNA FUNCIÓN QUE TOME 6 VALORES (a,b,c,d,e,f) COMO ARGUMENTOS
+- a y b SE SUMAN
+- EL RESULTADO DE LA SUMA SE RESTA CON c
+- LUEGO SE MULTIPLICA POR d Y SE DIVIDE POR e
+- FINALMENTE SE HACE LA POTENCIA CON EL EXPONENTE f.
+- SE RETORNA EL RESULTADO
+- TIP: RECORDAR EL ORDEN */
+
+a = 3
+b = 8
+c = 5
+d = 4
+e = 3
+f = 1
+
+function Operaciones(a,b,c,d,e,f){
+    
+    suma = a + b
+    resta = suma - c
+    multiplicacion = resta * d
+    division = multiplicacion / e
+    potencia = division**f
+
+  
+	return resultado = potencia
+}
+
+
+console.log(Operaciones(a,b,c,d,e,f))
+
+

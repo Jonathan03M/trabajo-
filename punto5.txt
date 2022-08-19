@@ -1,0 +1,11 @@
+/* 5)---------
+IMPLEMENTAR UNA FUNCIÓN QUE TOME UN ARRAY COMO ARGUMENTO, ORDENAR ALFABÉTICAMENTE
+Y/O DE MAYOR A MENOR Y RETORNAR EL RESULTADO */
+
+function myArrays([]){
+    myArray = ["2","4","3","6"]
+
+	return myArray.sort()
+}
+
+console.log(myArrays([]))
